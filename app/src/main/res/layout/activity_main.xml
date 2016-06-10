@@ -7,10 +7,12 @@
     tools:context=".ActivityMain">
 
     <ImageView
-        android:id="@+id/app_background"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/backgroud_colored" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_logo" />
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="490dp"
@@ -40,7 +42,8 @@
             android:paddingTop="@dimen/btn_signup_padding_top"
             android:text="Login"
             android:textColor="@android:color/white"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:onClick="login" />
 
         <Button
             android:id="@+id/signup_button"

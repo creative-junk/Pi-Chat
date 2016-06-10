@@ -10,7 +10,7 @@ import android.view.View;
 public class ActivityMain extends AppCompatActivity {
 
     public void login(View view){
-        Intent intent= new Intent(getApplicationContext(),HomeActivity.class);
+        Intent intent= new Intent(getApplicationContext(),ChatActivity.class);
         startActivity(intent);
 
     }

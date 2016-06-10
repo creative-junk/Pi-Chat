@@ -82,7 +82,15 @@
             android:label="@string/title_activity_register"
             android:parentActivityName=".ActivityMain"
             android:screenOrientation="portrait"
-            android:theme="@style/BarTheme">
+            android:theme="@style/BarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="crysoftdynamics.timeline.ActivityMain" />
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/BarTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="crysoftdynamics.timeline.ActivityMain" />
